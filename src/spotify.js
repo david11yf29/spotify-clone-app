@@ -6,12 +6,12 @@ const clientId = "9d7de7fea7ce4f719a271a57d0ba7916";
 
 const scopes = [
   "user-read-currently-playing",
-  "user-read-recently-playing",
+  "user-read-recently-played",
   "user-read-playback-state",
   "user-top-read",
   "user-modify-playback-state",
 ];
 
-export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_url=${redirectUri}&scope=${scopes.join(
+export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
   "%20"
 )}&response_type=token&show_dialog=true`;
