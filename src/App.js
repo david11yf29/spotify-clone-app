@@ -1,13 +1,19 @@
+import React from "react";
 import "./App.css";
+import Login from "./Login";
 
-function App() {
+const App = () => {
   return (
     // BEM
     <div className="app">
       <h1>We Building</h1>
+
+      {/* SPOTIFY LOGO */}
+      {/* Login with spotify button */}
+      <Login />
     </div>
   );
-}
+};
 
 export default App;
 
