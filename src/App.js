@@ -6,10 +6,6 @@ const App = () => {
   return (
     // BEM
     <div className="app">
-      <h1>We Building</h1>
-
-      {/* SPOTIFY LOGO */}
-      {/* Login with spotify button */}
       <Login />
     </div>
   );
