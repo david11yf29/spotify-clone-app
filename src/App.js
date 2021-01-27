@@ -6,11 +6,13 @@ import SpotifyWebApi from "spotify-web-api-js";
 
 import { getTokenFromUrl } from "./spotify";
 import Player from "./Player";
+import { useDataLayerValue } from "./DataLayer";
 
 const spotify = new SpotifyWebApi();
 
 const App = () => {
   const [token, setToken] = useState(null);
+  const [{}, dispatch] = useDataLayerValue();
 
   // Run code baased on given condition
   useEffect(() => {
