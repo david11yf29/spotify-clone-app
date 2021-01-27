@@ -20,6 +20,10 @@ const Sidebar = () => {
       <br />
       <strong className="sidebar__title">PLAYLIST</strong>
       <hr />
+
+      <SidebarOption title="Hip hop" />
+      <SidebarOption title="Rock" />
+      <SidebarOption title="RnB" />
     </div>
   );
 };
