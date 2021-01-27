@@ -1,4 +1,6 @@
 .sidebarOption {
+  display: flex;
+  align-items: center;
   color: grey;
   height: 40px;
   cursor: pointer;
@@ -7,4 +9,8 @@
 
 .sidebarOption:hover {
   color: white;
+}
+
+.sidebarOption__icon {
+  padding: 0 10px;
 }
