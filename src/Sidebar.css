@@ -10,8 +10,7 @@
 }
 
 .sidebar__logo {
-  /* keeps the aspect ratio */
-  object-fit: contain;
+  margin-right: auto;
   height: 70px;
-  width: 100px;
+  padding: 10px;
 }
