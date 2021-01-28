@@ -17,12 +17,12 @@ const Footer = () => {
       <div className="footer__left">
         <img
           className="footer__albumLogo"
-          src="https://i.pinimg.com/originals/b0/a8/29/b0a829f1d7885ad81a9b16c41b97c4d2.jpg"
+          src="https://uploads.disquscdn.com/images/4cb87960911b0a268629f6a4c262cd6f4b6783c790288b030ac682b3870fdbc6.jpg"
           alt=""
         />
         <div className="footer__songInfo">
-          <h4>Yeah!</h4>
-          <p>Usher</p>
+          <h4>Celebrity</h4>
+          <p>IU</p>
         </div>
       </div>
 

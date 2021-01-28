@@ -58,4 +58,6 @@ const App = () => {
 
 export default App;
 
+// spotify.js redirectUri 要記得改成localhost:3000
+// developer.spotify.com 的 Edit Settings 要記得更改 Redirect URIs 成 https://spotify-clone-app-a13de.web.app/
 // 9d7de7fea7ce4f719a271a57d0ba7916
