@@ -39,6 +39,10 @@
   margin-bottom: 20px;
 }
 
+.body__songs {
+  margin: 20px -30px;
+}
+
 .body__shuffle:hover {
   transition: 100ms transform ease-in;
   transform: scale(1.08);

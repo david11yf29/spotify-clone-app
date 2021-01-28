@@ -7,6 +7,7 @@ import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 
 import { useDataLayerValue } from "./DataLayer";
 import Header from "./Header";
+import SongRow from "./SongRow";
 
 const Body = ({ spotify }) => {
   const [{ discover_weekly }, dispatch] = useDataLayerValue();
@@ -30,6 +31,9 @@ const Body = ({ spotify }) => {
           <MoreHorizIcon />
         </div>
         {/* List of songs */}
+        {discover_weekly?.tracks.items.map((item) => {
+          <SongRow track={item.track} />;
+        })}
       </div>
     </div>
   );
